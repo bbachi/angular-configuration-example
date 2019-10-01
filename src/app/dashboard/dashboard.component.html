@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="testtypes">Types of Tests</h2>
+            <ul class="list-group">
+                <li *ngFor="let testType of testTypes" (click)="selectTestType(testType.id)" class="list-group-item {{testType.class}}">
+                    {{testType.type}}
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-5">
+            <h2 class="testdescrip">Test Description</h2>
+            <div class="panel panel-default">
+                <div class="panel-body b">{{testDescription}}</div>
+            </div>
+        </div>
+    </div>
+    
+</div>

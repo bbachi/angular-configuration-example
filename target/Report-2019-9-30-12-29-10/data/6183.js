@@ -1,0 +1,1 @@
+window.RESULTS.push({"options":{"screenshotOnPassed":true,"writeReportEachSpec":true,"showBrowser":true,"highlightSuspectLine":true,"driver":null,"path":"/Users/jcnt845/Projects/angular-e2e-configuration/target/Report-2019-9-30-12-29-10"},"timer":{"started":"2019-09-30T17:29:12.008Z","stopped":"2019-09-30T17:29:12.011Z","duration":3},"counts":{"specs":0},"sequence":[]});
